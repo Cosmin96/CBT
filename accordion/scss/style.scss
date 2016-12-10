@@ -1,0 +1,162 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  height:100vh;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  background-image: linear-gradient(135deg, rgba(155, 89, 182,0.8) 0%,rgba(211, 84, 0,0.8) 100%), url("http://i.imgur.com/QRbwNvh.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin:0;
+}
+
+h1 {
+  font-size: 1.5em;
+  padding: 0.5em;
+  text-align: center;
+  font-weight:300;
+  color:#444;
+  background:rgba(255,255,255,0.2);
+  border-radius:5px;
+  margin-bottom:40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.acc {
+  dl {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    &:after {
+      content: "";
+      display: block;
+      height: 1em;
+      width: 100%;
+      background-color: #2980b9;
+    }
+  }
+  dt > a {
+    text-align: center;
+    font-weight: 300;
+    padding: 2em;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: background-color 0.5s ease-in-out;
+  }
+  dd {
+    background-color: #fff;
+    font-size: 1em;
+    line-height: 1.5em;
+    background-image: linear-gradient(to bottom, #444 0%, #fff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    > p {
+      padding: 1em 2em 1em 2em;
+    }
+  }
+  position: relative;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding:40px 0 0 0;
+}
+
+.acc_title {
+  background-color: #3498db;
+  border-bottom: 1px solid #258cd1;
+  &:before {
+    content: "+";
+    font-size: 1.5em;
+    line-height: 0.5em;
+    float: left;
+    transition: transform 0.3s ease-in-out;
+  }
+  &:hover {
+    background-color: #2980b9;
+  }
+}
+
+.acc_title_active {
+  background-color: #2980b9;
+  &:before {
+    transform: rotate(-225deg);
+  }
+}
+
+.acc_panel {
+  height: auto;
+  overflow: hidden;
+}
+
+@media all {
+  .acc_panel {
+    max-height: 50em;
+    transition: max-height 1s;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .acc_panel {
+    max-height: 15em;
+    transition: max-height 0.5s;
+  }
+}
+
+.acc_panel_col {
+  max-height: 0;
+}
+
+.anim_in {
+  animation-name: acc_in;
+  animation-duration: 0.65s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 0s;
+}
+
+.anim_out {
+  animation-name: acc_out;
+  animation-duration: 0.75s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 0s;
+}
+
+
+@keyframes acc_in {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+@keyframes acc_out {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
