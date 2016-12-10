@@ -1,8 +1,8 @@
 body{
-			font-family: sans-serif;
-			line-height: 1.6;
-			height: 100%;
-		}
+      font-family: sans-serif;
+      line-height: 1.6;
+      height: 100%;
+    }
 
     #studentBanner {
 
@@ -19,11 +19,11 @@ body{
 
     }
 
-		#backgroundImg {
-			/* Adjust according to the height needed for Student section */
-		margin-bottom: 200px;
+    #backgroundImg {
+      /* Adjust according to the height needed for Student section */
+    margin-bottom: 200px;
 
-			/* Place an image here */
+      /* Place an image here */
     background-color: #fefefe;
 
     /* Full height */
@@ -35,8 +35,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-		background-blend-mode: luminosity;
-		}
+    background-blend-mode: luminosity;
+    }
 
 
     #tabEdge {
@@ -44,14 +44,14 @@ body{
       background: #fbfbfb;
     }
 
-		ul.tabs {
-			margin: 0px;
-			padding: 0px;
-			list-style: none;
+    ul.tabs {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
       color: #fbfbfb;
-		}
+    }
 
-		ul.tabs li.firstTabs {
+    ul.tabs li.firstTabs {
       background-color: #39B9E9;
       list-style-type: none;
       padding: 2% 2% 2% 2%;
@@ -59,8 +59,8 @@ body{
       border-right: 1px solid #fff;
       -webkit-transition: all 0.3s;
       opacity: 1;
-			cursor: pointer;
-		}
+      cursor: pointer;
+    }
 
     ul.tabs li.lastTab {
       background-color: #39B9E9;
@@ -69,7 +69,7 @@ body{
       text-align:center;
       -webkit-transition: all 0.3s;
       opacity: 1;
-			cursor: pointer;
+      cursor: pointer;
     }
 
     ul.tabs li:hover{
@@ -77,12 +77,12 @@ body{
 
     }
 
-		ul.tabs li.active{
-			background: #81cae5;
-			color: #fbfbfb;
+    ul.tabs li.active{
+      background: #81cae5;
+      color: #fbfbfb;
       -webkit-transition: all 1s;
       transition: all 1s;
-		}
+    }
 
     ul.tabs li.active:after {
       color: transparent;
@@ -105,16 +105,16 @@ body{
       width: 0;
     }
 
-		.tab-content {
-			display: none;
-			background: #fbfbfb;
-			padding: 15px;
+    .tab-content {
+      display: none;
+      background: #fbfbfb;
+      padding: 15px;
 
-		}
+    }
 
-		.tab-content.active{
-			display: inherit;
-		}
+    .tab-content.active{
+      display: inherit;
+    }
 
     .textBlock {
       float: left;
@@ -141,7 +141,7 @@ body {
 .inside-tabs {
   margin: 20px 20px;
   width: 100%;
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .inside-tabs nav {
@@ -150,7 +150,7 @@ body {
   align-items: stretch;
   color: #6C5D5D;
   width: 150px;
-	float: left;
+  float: left;
 }
 
 .inside-tabs nav a {
@@ -188,7 +188,7 @@ body {
   top: 0px;
   left: 150px;
   width: 0px;
-	overflow: hidden;
+  overflow: hidden;
   opacity: 0;
   transition: opacity 0.1s linear 0s;
 }
@@ -196,17 +196,17 @@ body {
 .inside-tabs .content.visible,
 tab-content.active {
   padding: 15px;
-	width: calc(100% - 200px);
+  width: calc(100% - 200px);
   background: #fbfbfb;
   position: static;
-	overflow: auto;
+  overflow: auto;
   opacity: 1;
 }
 
 /*****************************
-*      											 *
+*                            *
 *      ADVISORY SECTION      *
-* 													 *
+*                            *
 *****************************/
 
 .advisoryBanner {
@@ -258,7 +258,7 @@ tab-content.active {
 
 #backgroundImg-2 {
 
-	/* Place an image here*/
+  /* Place an image here*/
 background-color: #f4f4f4;
 
 /* Full height */
@@ -273,120 +273,120 @@ background-size: cover;
 }
 
 .dropDown1 {
-	width: 700px;
-	height: 400px;
-	color: #f4f4f4;
+  width: 700px;
+  height: 400px;
+  color: #f4f4f4;
 
 }
 
 .pic1 {
-	background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/10/PT_Web.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/10/PT_Web.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 .pic1 {
-	background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/10/PT_Web.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/10/PT_Web.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .pic2 {
-	background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/01/TomasoAste-e1455634021225.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/01/TomasoAste-e1455634021225.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .pic3 {
-	background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/10/Screen-Shot-2016-10-23-at-13.04.36-e1477224298235.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/10/Screen-Shot-2016-10-23-at-13.04.36-e1477224298235.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .pic4 {
-	background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/05/Antoaneta-blockchain_resize-1.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/05/Antoaneta-blockchain_resize-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .pic5 {
-	background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/03/Screen-Shot-2016-09-23-at-15.39.58.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/03/Screen-Shot-2016-09-23-at-15.39.58.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .pic5 {
-	background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/02/Foto-Arthur-Petersen_resize-1.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/02/Foto-Arthur-Petersen_resize-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .pic6 {
-	background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/01/clack_resize2.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/01/clack_resize2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .pic7 {
-	background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/04/Screen-Shot-2016-09-29-at-14.19.33-e1475838793449.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/04/Screen-Shot-2016-09-29-at-14.19.33-e1475838793449.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .pic8 {
-	background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/09/david-shipworth-1.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/09/david-shipworth-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .pic9 {
-	background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/03/Screen-Shot-2016-09-28-at-16.34.55-e1475076948508.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/03/Screen-Shot-2016-09-28-at-16.34.55-e1475076948508.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .pic10 {
-	background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/03/Screen-Shot-2016-09-28-at-16.39.06-e1475077531513.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/03/Screen-Shot-2016-09-28-at-16.39.06-e1475077531513.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .pic11 {
-	background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/03/Screen-Shot-2016-09-28-at-16.39.36-e1475077710888.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/03/Screen-Shot-2016-09-28-at-16.39.36-e1475077710888.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .pic12 {
-	background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/01/F.Caccioli_resize-1.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(http://blockchain.cs.ucl.ac.uk/wp-content/uploads/2016/01/F.Caccioli_resize-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
@@ -563,4 +563,4 @@ background-size: cover;
 .card-plain .image-header {
   border-radius: 4px;
 }
-Choose Files Choose Files
+
